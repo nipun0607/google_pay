@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    /* background-image:url("https://img.freepik.com/premium-vector/payment-concept-blue-background-invoice-money-bill-discount-icons_159242-6366.jpg") */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+
+}
+.container{
+    height:80vh;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:0.7rem;
+    margin-top: 2rem;
+    border: 2px solid red;
+    background-color:red;
+
+}
+h1{
+    color: aliceblue;
+    font:600;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#mobile_number{
+    margin: 0.5rem 0.5rem;
+    padding: 1.5rem 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;
+}
+.number_btn{
+    margin: 2rem 2rem;
+    padding: 1.5rem 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: maroon;
+    color: aliceblue;
+}
+#amount{
+    margin: 0.5rem 0.5rem;
+    padding: 1.5rem 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 10px;
+    background-color: black;
+    color: aliceblue;  
+}
+#password{
+    margin: 0.5rem 0.5rem;
+    padding: 1.5rem 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 10px;  
+    background-color: black;
+    color: aliceblue;
+    display: none;
+}
+.payment_btn{
+    margin: 2rem 2rem;
+    padding: 1.5rem 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: maroon;
+    display: none;
+}
+.result{
+    width:30%;
+    background-color:blue;
+    height:15rem;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+    align-items: center;
+    color:white;
+    font-size: 2rem;
+    border-radius: 50%;
+    margin-top:18%;
+}
